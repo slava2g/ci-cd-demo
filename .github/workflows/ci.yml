@@ -1,4 +1,4 @@
-ame: Node.js CI/CD
+Name: Node.js CI/CD
 
 on:
   push:
