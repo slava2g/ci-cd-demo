@@ -26,8 +26,12 @@
     ],
     "reporters": [
       "default",
-      ["jest-junit", { "outputFile": "report.xml" }]
+      [
+        "jest-junit",
+        {
+          "outputFile": "report.xml"
+        }
+      ]
     ]
   }
 }
-
