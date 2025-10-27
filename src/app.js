@@ -28,5 +28,10 @@ function isEven(num) {
   return num % 2 === 0;
 }
 
+function isPositive(num) {
+  return num > 0;
+}
+
 // Експортуємо всі функції, щоб можна було тестувати
-module.exports = { sum, subtract, multiply, divide, isEven };
+module.exports = { sum, subtract, multiply, divide, isEven, isPositive };
+
