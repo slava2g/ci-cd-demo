@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: User API
+  version: 1.0.0
+  description: API для керування користувачами (Swagger документація)
+paths:
+  /users:
+    get:
+      summary: Отримати список усіх користувачів
+      responses:
+        '200':
+          description: Успішна відповідь
+    post:
+      summary: Створити нового користувача
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+      responses:
+        '201':
+          description: Користувач створений успішно
+
+  /users/{id}:
+    delete:
+      summary: Видалити користувача за ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Користувача видалено
+        '404':
+          description: Користувача не знайдено
