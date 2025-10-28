@@ -1,2 +1,2 @@
-![Tests](https://github.com/slava2g/ci-cd-demo/actions/workflows/ci-cd.yml/badge.svg)
+![Tests](https://github.com/slava2g/ci-cd-demo/actions/workflows/ci.yml/badge.svg)
 
