@@ -4,4 +4,4 @@
 
 Переглянути документацію API можна у Swagger Editor:
 
-👉 [Відкрити в Swagger Editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/slava2g/ci-cd-demo/feature/test-task/docs/api/swagger.yaml)
+[Swagger Editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/slava2g/ci-cd-demo/feature/test-task/docs/api/swagger.yaml)
